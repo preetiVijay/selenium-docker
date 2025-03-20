@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-15T23:36:18 GMT" name="vendar-portal" finished-at="2025-03-15T23:37:15 GMT" duration-ms="56750">
+    <groups>
+    </groups>
+    <test started-at="2025-03-15T23:36:18 GMT" name="user-mike" finished-at="2025-03-15T23:37:14 GMT" duration-ms="55958">
+      <class name="com.preeti.tests.vendarportal.VendarPortalTest">
+        <test-method is-config="true" signature="setUpConfig()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@6d07a63d]" started-at="2025-03-15T23:36:18 GMT" name="setUpConfig" finished-at="2025-03-15T23:36:18 GMT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@6d07a63d]" started-at="2025-03-15T23:36:18 GMT" name="setDriver" finished-at="2025-03-15T23:36:41 GMT" duration-ms="23282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50d13246]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="initializePageObjects(java.lang.String)[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@6d07a63d]" started-at="2025-03-15T23:36:41 GMT" name="initializePageObjects" finished-at="2025-03-15T23:36:43 GMT" depends-on-methods="com.preeti.tests.AbstractTest.setDriver" duration-ms="1793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/mike.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@6d07a63d]" started-at="2025-03-15T23:36:43 GMT" name="loginTest" finished-at="2025-03-15T23:37:02 GMT" duration-ms="18813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@6d07a63d]" started-at="2025-03-15T23:37:02 GMT" name="dashboardTest" finished-at="2025-03-15T23:37:05 GMT" depends-on-methods="com.preeti.tests.vendarportal.VendarPortalTest.loginTest" duration-ms="3071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@6d07a63d]" started-at="2025-03-15T23:37:05 GMT" name="logoutTest" finished-at="2025-03-15T23:37:10 GMT" depends-on-methods="com.preeti.tests.vendarportal.VendarPortalTest.dashboardTest" duration-ms="4332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@6d07a63d]" started-at="2025-03-15T23:37:10 GMT" name="quitDriver" finished-at="2025-03-15T23:37:14 GMT" duration-ms="4222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.preeti.tests.vendarportal.VendarPortalTest -->
+    </test> <!-- user-mike -->
+    <test started-at="2025-03-15T23:36:18 GMT" name="user-john" finished-at="2025-03-15T23:37:15 GMT" duration-ms="56736">
+      <class name="com.preeti.tests.vendarportal.VendarPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@573906eb]" started-at="2025-03-15T23:36:18 GMT" name="setDriver" finished-at="2025-03-15T23:36:48 GMT" duration-ms="29732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2bd08376]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="initializePageObjects(java.lang.String)[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@573906eb]" started-at="2025-03-15T23:36:48 GMT" name="initializePageObjects" finished-at="2025-03-15T23:36:48 GMT" depends-on-methods="com.preeti.tests.AbstractTest.setDriver" duration-ms="80" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/john.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@573906eb]" started-at="2025-03-15T23:36:48 GMT" name="loginTest" finished-at="2025-03-15T23:37:01 GMT" duration-ms="13221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@573906eb]" started-at="2025-03-15T23:37:01 GMT" name="dashboardTest" finished-at="2025-03-15T23:37:07 GMT" depends-on-methods="com.preeti.tests.vendarportal.VendarPortalTest.loginTest" duration-ms="6218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@573906eb]" started-at="2025-03-15T23:37:07 GMT" name="logoutTest" finished-at="2025-03-15T23:37:12 GMT" depends-on-methods="com.preeti.tests.vendarportal.VendarPortalTest.dashboardTest" duration-ms="4102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@573906eb]" started-at="2025-03-15T23:37:12 GMT" name="quitDriver" finished-at="2025-03-15T23:37:15 GMT" duration-ms="3251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.preeti.tests.vendarportal.VendarPortalTest -->
+    </test> <!-- user-john -->
+    <test started-at="2025-03-15T23:36:18 GMT" name="user-sam" finished-at="2025-03-15T23:37:15 GMT" duration-ms="56750">
+      <class name="com.preeti.tests.vendarportal.VendarPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@662706a7]" started-at="2025-03-15T23:36:18 GMT" name="setDriver" finished-at="2025-03-15T23:36:50 GMT" duration-ms="32322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ab7395e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="initializePageObjects(java.lang.String)[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@662706a7]" started-at="2025-03-15T23:36:50 GMT" name="initializePageObjects" finished-at="2025-03-15T23:36:50 GMT" depends-on-methods="com.preeti.tests.AbstractTest.setDriver" duration-ms="70" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/sam.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@662706a7]" started-at="2025-03-15T23:36:50 GMT" name="loginTest" finished-at="2025-03-15T23:37:02 GMT" duration-ms="11763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@662706a7]" started-at="2025-03-15T23:37:02 GMT" name="dashboardTest" finished-at="2025-03-15T23:37:07 GMT" depends-on-methods="com.preeti.tests.vendarportal.VendarPortalTest.loginTest" duration-ms="5080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@662706a7]" started-at="2025-03-15T23:37:07 GMT" name="logoutTest" finished-at="2025-03-15T23:37:11 GMT" depends-on-methods="com.preeti.tests.vendarportal.VendarPortalTest.dashboardTest" duration-ms="4165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.preeti.tests.vendarportal.VendarPortalTest@662706a7]" started-at="2025-03-15T23:37:12 GMT" name="quitDriver" finished-at="2025-03-15T23:37:15 GMT" duration-ms="3270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.preeti.tests.vendarportal.VendarPortalTest -->
+    </test> <!-- user-sam -->
+  </suite> <!-- vendar-portal -->
+</testng-results>

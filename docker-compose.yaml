@@ -1,0 +1,20 @@
+services:
+  vendor-portal:
+    image: preeti/selenium
+    environment:
+    - BROWSER=${BROWSER}
+    - HUB_HOST=hub
+    - THREAD_COUNT=3
+    - TEST_SUITE=vendor-portal.xml 
+    volumes:
+    - ./docker-output/vendor-portal:/home/selenium-docker/test-output
+  flight-reservation:
+    image: preeti/selenium
+    environment:
+    - BROWSER=${BROWSER}
+    - HUB_HOST=hub
+    - THREAD_COUNT=3
+    - TEST_SUITE=flight-reservation.xml    
+    volumes:
+    - ./docker-output/flight-reservation:/home/selenium-docker/test-output
+   
