@@ -1,6 +1,6 @@
 services:
   vendor-portal:
-    image: preeti/selenium
+    image: preetivijay/selenium
     environment:
     - BROWSER=${BROWSER}
     - HUB_HOST=hub
@@ -9,7 +9,7 @@ services:
     volumes:
     - ./docker-output/vendor-portal:/home/selenium-docker/test-output
   flight-reservation:
-    image: preeti/selenium
+    image: preetivijay/selenium
     environment:
     - BROWSER=${BROWSER}
     - HUB_HOST=hub
